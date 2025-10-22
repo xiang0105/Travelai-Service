@@ -1,0 +1,42 @@
+{
+    "itinerary": [
+        {
+            "date": "2025-10-20",
+            "activities": [
+                { "time": "09:00", "title": "出發（台北）", "description": "於早上從台北出發，開車前往花蓮，途中短暫休息。", "estimatedCost": 800 },
+                { "time": "12:30", "title": "午餐 - 在地小吃", "description": "品嚐路途中推薦的小吃，如公路旁小店。", "estimatedCost": 300 },
+                { "time": "14:30", "title": "七星潭", "description": "海岸散步、拍照與輕鬆活動。", "estimatedCost": 0 },
+                { "time": "17:30", "title": "入住飯店並休息", "description": "前往預訂的親子友善飯店；稍作休息。", "estimatedCost": 0 }
+            ],
+            "accommodation": { "name": "花蓮海景親子飯店 (示例)", "check_in": "22:00", "check_out": "09:00", "estimatedCost": 2500 }
+        },
+        {
+            "date": "2025-10-21",
+            "activities": [
+                { "time": "09:30", "title": "太魯閣國家公園 - 砂卡礑步道", "description": "適合親子的緩坡步道，體驗峽谷景觀。", "estimatedCost": 0 },
+                { "time": "12:30", "title": "午餐 - 原住民風味料理", "description": "享用當地特色美食。", "estimatedCost": 450 },
+                { "time": "15:00", "title": "白楊步道(水簾洞/小瀑布)", "description": "短程健行，接近自然瀑布景致。", "estimatedCost": 0 },
+                { "time": "18:30", "title": "花蓮夜市美食巡禮", "description": "晚餐與小吃體驗。", "estimatedCost": 600 }
+            ],
+            "accommodation": { "name": "花蓮溫泉旅館 (示例)", "check_in": "22:00", "check_out": "09:00", "estimatedCost": 3200 }
+        },
+        {
+            "date": "2025-10-22",
+            "activities": [
+                { "time": "09:00", "title": "鯉魚潭/自行車環湖", "description": "租腳踏車環湖，享受湖邊景色。", "estimatedCost": 300 },
+                { "time": "12:00", "title": "午餐 - 海鮮餐廳", "description": "品嚐新鮮海產。", "estimatedCost": 600 },
+                { "time": "14:30", "title": "文化體驗 - 當地手作/博物館", "description": "參觀在地文化或手作課程。", "estimatedCost": 400 }
+            ],
+            "accommodation": { "name": "花蓮溫泉旅館 (示例)", "check_in": "22:00", "check_out": "09:00", "estimatedCost": 3200 }
+        },
+        {
+            "date": "2025-10-23",
+            "activities": [
+                { "time": "09:00", "title": "輕鬆早餐並整理行李", "description": "飯店早餐後整理退房。", "estimatedCost": 200 },
+                { "time": "10:30", "title": "沿海公路返回台北(途中景點停靠)", "description": "視時間彈性停靠景點短暫遊覽。", "estimatedCost": 0 },
+                { "time": "13:00", "title": "午餐 - 路途中午餐", "description": "回程途中用餐，結束行程。", "estimatedCost": 300 }
+            ],
+            "accommodation": { "name": "無 (當日退房)", "check_in": null, "check_out": null, "estimatedCost": 0 }
+        }
+    ]
+}

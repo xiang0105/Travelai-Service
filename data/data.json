@@ -1,0 +1,24 @@
+{
+    "session_id": "demo-session-0001",
+    "origin": "台北市",
+    "destination": "花蓮縣",
+    "date_start": "2025-10-20",
+    "date_end": "2025-10-23",
+    "adults": 2,
+    "kids": 1,
+    "budget_twd": 15000,
+    "preferences": {
+        "travel_style": "relaxed",
+        "interests": ["自然景觀", "美食", "溫泉"],
+        "max_daily_drive_minutes": 120
+    },
+    "must_see": [
+        "太魯閣國家公園",
+        "七星潭",
+        "花蓮夜市"
+    ],
+    "accommodation_preference": "family-friendly hotel or ryokan with onsen",
+    "transport_modes": ["自駕", "火車"],
+    "special_requests": "傾向早上出發、晚上休閒用餐；避免過多行程安排，適合帶小孩的步道",
+    "created_at": "2025-10-13T09:30:00+08:00"
+}

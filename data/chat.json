@@ -1,0 +1,61 @@
+
+{
+  "mock": {
+    "init_with_front_data": {
+      "session_id": "demo-session-0001",
+      "reply": "您好！我是 TripMind 模擬助理，接下來我會問您幾個問題以準備初步行程。",
+      "questions": [
+        { "key": "places_to_visit", "label": "您想去哪玩？(想去的景點或活動)" },
+        { "key": "activity_preferences", "label": "偏好活動類型(登山/美食/文化/水上活動)" },
+        { "key": "food_preferences", "label": "飲食偏好(素食/當地小吃/高級料理)" },
+        { "key": "transport_preference", "label": "交通偏好(自駕/大眾交通/包車)" },
+        { "key": "accommodation_requests", "label": "住宿要求(親子友善/近車站/有溫泉)" }
+      ],
+      "missing": ["places_to_visit"]
+    },
+
+    "message": {
+      "example_with_last_question": {
+        "request_example": {
+          "session_id": "demo-session-0001",
+          "user_text": "我想去太魯閣和七星潭",
+          "last_question": "places_to_visit"
+        },
+        "response_example": {
+          "session_id": "demo-session-0001",
+          "reply": "太魯閣和七星潭都很棒，我會把它們加入行程。接下來要問您偏好的活動類型。",
+          "answered_question": "places_to_visit",
+          "questions": [ { "key": "activity_preferences", "label": "偏好活動類型" } ],
+          "missing": ["activity_preferences"]
+        }
+      }
+    },
+
+    "mock_followups": {
+      "questions": [
+        { "key": "places_to_visit", "label": "您想去哪玩？(想去的景點或活動)" },
+        { "key": "activity_preferences", "label": "偏好活動類型(登山/美食/文化/水上活動)" },
+        { "key": "food_preferences", "label": "飲食偏好(素食/當地小吃/高級料理)" },
+        { "key": "transport_preference", "label": "交通偏好(自駕/大眾交通/包車)" },
+        { "key": "accommodation_requests", "label": "住宿要求(親子友善/近車站/有溫泉)" }
+      ],
+
+      "example_flow": {
+        "request": {
+          "session_id": "demo-session-0001",
+          "user_text": "我想去太魯閣和七星潭",
+          "last_question": "places_to_visit"
+        },
+        "response": {
+          "session_id": "demo-session-0001",
+          "reply": "太魯閣和七星潭都很棒，我會把它們加入行程。接下來要問您偏好的活動類型。",
+          "answered_question": "places_to_visit",
+          "questions": [ { "key": "activity_preferences", "label": "偏好活動類型" } ],
+          "missing": ["activity_preferences"]
+        }
+      }
+    }
+  }
+}
+
+
