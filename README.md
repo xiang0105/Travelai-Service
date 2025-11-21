@@ -1,6 +1,7 @@
 # TravelAI Service
 
 一個使用 **Expo + React Native + TypeScript** 建置的旅遊服務應用程式專案，包含 UI 元件、主題管理、資料 hooks、模組化頁面與 Supabase 等整合功能。
+此為手機版，雖可在vscode開啟瀏覽器，但並未打包為可用Web功能。
 
 ## 專案結構
 
